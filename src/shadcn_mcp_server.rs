@@ -1,8 +1,8 @@
 use zed_extension_api as zed;
 
-struct NextjsDevtoolsMcpExtension;
+struct ShadcnMcpExtension;
 
-impl zed::Extension for NextjsDevtoolsMcpExtension {
+impl zed::Extension for ShadcnMcpExtension {
     fn new() -> Self {
         Self
     }
@@ -24,4 +24,4 @@ impl zed::Extension for NextjsDevtoolsMcpExtension {
     }
 }
 
-zed::register_extension!(NextjsDevtoolsMcpExtension);
+zed::register_extension!(ShadcnMcpExtension);

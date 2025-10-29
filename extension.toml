@@ -6,5 +6,5 @@ authors = ["uprizing <uprizingfaze@gmail.com>"]
 description = "Use the shadcn MCP server to browse, search, and install components from registries."
 repository = "https://github.com/MrUprizing/zed-mcp-server-shadcn"
 
-[context_servers.mcp-server-nextjs]
+[context_servers.shadcn-mcp-server]
 name = "shadcn/ui MCP Server"
