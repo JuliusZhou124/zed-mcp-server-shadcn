@@ -1,0 +1,18 @@
+# Rust build artifacts
+target/
+*.wasm
+
+# Cargo lock file (optional for libraries)
+Cargo.lock
+
+# macOS
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+
+# Zed extension build
+extension.wasm
